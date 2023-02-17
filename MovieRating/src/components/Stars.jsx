@@ -1,18 +1,10 @@
 import React from 'react'
 import propTypes, { element, number } from 'prop-types'
+import Star from './Star';
 
 export default function Stars(props) {
     let {count} = props;
-    let arr = new Array();
-    
-    for (let i=0; i<count; i++){
-        arr.push(<>
-            <svg fill="#D3BCA2" height="28" viewBox="0 0 18 18" width="28" xmlns="http://www.w3.org/2000/svg">
-      <path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/>
-      <path d="M0 0h18v18H0z" fill="none"/>
-    </svg>
-        </>)
-    };
+    let arr = new Array(count).fill().map((_, idx) => <h5 key={idx}><Star /></h5>)
 
   return (
     <div>

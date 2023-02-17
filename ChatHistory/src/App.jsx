@@ -1,5 +1,5 @@
 import './App.css'
-import MessageHistory from './MessageHistory';
+import MessageHistory from './components/MessageHistory';
 
 const messages = [{
   id: 'chat-5-1090',
@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <ul>
+      <ul class='messageList'>
         <MessageHistory list ={messages} />
       </ul>
     </div>

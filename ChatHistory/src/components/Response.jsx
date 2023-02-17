@@ -3,7 +3,7 @@ import React from 'react'
 export default function Response(props) {
     const {resp} = props
   return (
-    <div>
+    <div class='message'>
       <li key={resp.id} class="clearfix">
         <div class="message-data align-right">
             <span class="message-data-time">{resp.time}</span> &nbsp; &nbsp;

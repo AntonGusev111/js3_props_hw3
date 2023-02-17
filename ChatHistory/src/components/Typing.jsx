@@ -3,7 +3,7 @@ import React from 'react'
 export default function Typing(props) {
     const {typ} = props; 
   return (
-    <div>
+    <div class='message'>
       <li key={typ.id} class="clearfix">
         <div class="message-data align-right">
             <span class="message-data-time">{typ.time}</span> &nbsp; &nbsp;

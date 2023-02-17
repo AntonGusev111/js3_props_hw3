@@ -7,9 +7,6 @@ import Message from './Message';
 export default function MessageHistory(props) {
     const {list} = props
 
-    
-
-
     let resp = list.map((element) => {
         switch(element.type){
             case 'response':

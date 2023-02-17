@@ -200,6 +200,19 @@ body {
   float: right;
 }
 
+.clearfix{
+  text-align: right;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 390px;
+  background-color: green;
+}
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -207,4 +220,15 @@ body {
   content: " ";
   clear: both;
   height: 0;
+ 
 }
+
+.messageList{
+  background-color: #94C2ED;
+  margin-left: 70px;
+  width: 70%;
+  border-radius: 12px;
+  border: 5px solid rgba(128, 128, 128, 0.514);
+  padding: 25px;
+}
+

@@ -4,7 +4,7 @@ export default function Message(props) {
     const {mes} = props;
    
   return (
-    <div>
+    <div class='message'>
       <li key={mes.id} class="clearfix">
         <div class="message-data align-right">
             <span class="message-data-time">{mes.time}</span> &nbsp; &nbsp;
